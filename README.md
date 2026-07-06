@@ -1,4 +1,4 @@
-# Kitchen P&L Analytics Dashboard
+# Store P&L Analytics Dashboard
 
 A two-tab Streamlit dashboard analyzing cloud kitchen Profit & Loss data across 350 unique kitchen locations in 5 Indian cities, over a 6-month period (Oct 2023 – Mar 2024).
 
@@ -8,8 +8,8 @@ Built as part of a data analyst case study.
 
 ## Dashboard Preview
 
-### Kitchen-Level PNL
-![Kitchen-Level PNL](screenshots/dashboard_1_kitchen.png)
+### Store-Level PNL
+![Store-Level PNL](screenshots/dashboard_1_kitchen.png)
 
 ### Variance-Level PNL
 ![Variance-Level PNL](screenshots/dashboard_2_variance.png)
@@ -64,7 +64,7 @@ The dashboard opens at `http://localhost:8501`.
 
 ## Dashboard Features
 
-### Tab 1: Kitchen-Level PNL
+### Tab 1: Store-Level PN
 - Filters (sidebar): City, Zone, Month, EBITDA Category, Revenue Category
 - Range sliders: EBITDA, CM %, Net Revenue
 - 5 KPI cards: Total Revenue, Total EBITDA, Avg EBITDA %, Unique Kitchens, Avg Variance %
